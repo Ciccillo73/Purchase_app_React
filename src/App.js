@@ -11,7 +11,7 @@ class App extends Component {
     ];
         return (
             <div>
-                <Sales />
+                <Sales items={sales}/>
             </div>
         );
     }
